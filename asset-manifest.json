@@ -1,0 +1,23 @@
+{
+  "files": {
+    "app.js": "/mySotialProject/static/js/app.693d7393.chunk.js",
+    "app.js.map": "/mySotialProject/static/js/app.693d7393.chunk.js.map",
+    "runtime~app.js": "/mySotialProject/static/js/runtime~app.c68f9615.js",
+    "runtime~app.js.map": "/mySotialProject/static/js/runtime~app.c68f9615.js.map",
+    "static/js/2.f42e2535.chunk.js": "/mySotialProject/static/js/2.f42e2535.chunk.js",
+    "static/js/2.f42e2535.chunk.js.map": "/mySotialProject/static/js/2.f42e2535.chunk.js.map",
+    "favicon-16.png": "/mySotialProject/favicon-16.png",
+    "favicon-32.png": "/mySotialProject/favicon-32.png",
+    "favicon.ico": "/mySotialProject/favicon.ico",
+    "index.html": "/mySotialProject/index.html",
+    "manifest.json": "/mySotialProject/manifest.json",
+    "serve.json": "/mySotialProject/serve.json",
+    "static/js/2.f42e2535.chunk.js.LICENSE.txt": "/mySotialProject/static/js/2.f42e2535.chunk.js.LICENSE.txt",
+    "static/media/planet.png": "/mySotialProject/static/media/planet.56303dbb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.c68f9615.js",
+    "static/js/2.f42e2535.chunk.js",
+    "static/js/app.693d7393.chunk.js"
+  ]
+}
