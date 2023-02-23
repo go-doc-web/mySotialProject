@@ -1,20 +1,45 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import {
+  ImageBackground,
+  StyleSheet,
+  Text,
+  View,
+  TextInput,
+  TouchableOpacity,
+} from "react-native";
 
-export default function App() {
+import styles from "./style/styles";
+
+console.log(styles);
+
+// const image = { uri: "./assets/images/star-trails.jpg" };
+
+export default App = () => {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <ImageBackground
+        source={require("./assets/images/planet.png")}
+        style={styles.image}
+      >
+        <View style={styles.form}>
+          <View>
+            <Text style={styles.inputTitle}>Email</Text>
+            <TextInput style={styles.input} textAlign={"center"} />
+          </View>
+          <View style={{ marginTop: 20 }}>
+            <Text style={styles.inputTitle}>password</Text>
+            <TextInput
+              style={styles.input}
+              textAlign={"center"}
+              secureTextEntry
+            />
+          </View>
+
+          <TouchableOpacity style={styles.btn} activeOpacity={0.8}>
+            <Text style={styles.btnText}>Sign In</Text>
+          </TouchableOpacity>
+        </View>
+      </ImageBackground>
     </View>
   );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+};
